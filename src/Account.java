@@ -6,15 +6,6 @@ public class Account {
 	private int balance;
 	private static int totalBalance;					 
 	
-	public static void show() {
-		//System.out.println(balance);
-		System.out.println(totalBalance);	//class variable (static)
-	}
-	
-	public void display() {
-		System.out.println(balance);		//non-static
-		System.out.println(totalBalance);	//static
-	}
 	
 	public void showTotalBalance() {
 		System.out.println("Total Balance : "+totalBalance);

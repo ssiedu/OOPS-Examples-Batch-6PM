@@ -15,9 +15,7 @@ public class BankingApp {
 		ac2.showAccountDetails();
 		ac3.showAccountDetails();
 		
-		ac1.showTotalBalance();
-		ac2.showTotalBalance();
-		ac3.showTotalBalance();
+	
 
 	}
 
