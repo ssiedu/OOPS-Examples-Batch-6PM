@@ -11,9 +11,13 @@ public class BankingApp {
 		ac2.setData(112, "BBB", 20000);
 		ac3.setData(113, "CCC", 30000);
 		
-		ac1.showAccountDetails();
-		ac2.showAccountDetails();
-		ac3.showAccountDetails();
+		Account.showAccountDetails(ac1);
+		Account.showAccountDetails(ac2);
+		Account.showAccountDetails(ac3);
+		
+		//ac1.showAccountDetails();
+		//ac2.showAccountDetails();
+		//ac3.showAccountDetails();
 		
 	
 
