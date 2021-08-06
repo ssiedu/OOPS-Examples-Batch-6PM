@@ -5,20 +5,15 @@ public class Account {
 	private String name;
 	private int balance;
 	private static int totalBalance;					 
-	
-	public static int add(int number1, int number2) {
-		return number1+number2;
+		
+	public static void showAvg(Account tmp1, Account tmp2, Account tmp3, Account tmp4) {
+		System.out.println("Avg of 4  :" +(tmp1.balance+tmp2.balance+tmp3.balance+tmp4.balance)/4);
 	}
-	
-	public static void info() {
-		System.out.println("Its A Banking Application...!");
-		System.out.println("Developed For Managing Accounts....!");
-		System.out.println("________________________________________________________");
+	public static void showAvg(Account tmp1, Account tmp2, Account tmp3) {
+		System.out.println("Avg of 3  :" +(tmp1.balance+tmp2.balance+tmp3.balance)/3);
 	}
-	//suppose we wish to compute the avg-balance of any two accounts.
-	
 	public static void showAvg(Account tmp1, Account tmp2) {
-		System.out.println("Avg of 2  :" +add(tmp1.balance,tmp2.balance)/2);
+		System.out.println("Avg of 2  :" +(tmp1.balance+tmp2.balance)/2);
 	}
 	
 	
