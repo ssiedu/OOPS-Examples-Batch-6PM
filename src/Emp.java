@@ -4,6 +4,10 @@ public class Emp {
 	private String name;
 	private int sal;
 
+	
+	public void finalize() {
+		//this will be called before garbage-collection-of-an-object.
+	}
 	public void m1() {
 		
 	}
